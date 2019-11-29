@@ -21,7 +21,7 @@ export class NavComponent implements OnInit {
         this.model.password = "";
       },
       error => {
-        console.log("Failed to Login");
+        console.log(error);
       }
     );
   }
